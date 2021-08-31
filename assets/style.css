@@ -1,0 +1,92 @@
+
+*{
+    padding: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+div.logo-box, div.video, p {
+    display: flex;
+    justify-content: center;
+}
+body {
+    background-color: black;
+    background-image: url("./images/marble.jpg");
+    color: white;
+
+}
+p.latest {
+    margin-bottom: 10px;
+}
+.upcoming {
+    text-decoration: underline;
+    margin-top: 10px;
+    border-style: groove;
+    height: 100px;
+}
+div.video {
+    padding-bottom: 15px;
+}
+
+
+ul.menue-bar{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: groove;
+
+}
+li:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li.kinks {
+    margin: 18px;
+}
+
+
+ul.links  {
+    padding-right: 50px;
+    padding-left: 50px;
+    display: flex;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+   
+
+}
+
+
+div.follow, div.stream {
+    margin: 10px;
+    padding: 0px;
+    display: flex;
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-evenly;
+    border-style: groove;
+    flex-direction: column;
+
+}
+
+
+
+.pow {
+    display: flex;
+    justify-content: space-between;
+}
+
+p.subtitle {
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+ 
+@media screen and (min-width: 1024px) {
+    iframe.sizing {
+        width: 720px;
+        height: 405px;
+    }
+}
