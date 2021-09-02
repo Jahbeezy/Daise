@@ -33,12 +33,14 @@ li.sup {
     padding-right: 10px;
     padding-left: 10px;
     background-color: black;
+    opacity: .7;
 }
 
 li.sup:hover {
     text-decoration: underline;
     background-color: rgb(255, 250, 250);
     color: rgb(0, 0, 0);
+    opacity: 1;
 }
 
 ul.links {
@@ -46,7 +48,18 @@ ul.links {
     justify-content: space-evenly;
     list-style-type: none;
     padding: 0;
+    margin: 100px;
+    
 }
+
+img.kinks {
+    opacity: .8;
+}
+
+img.kinks:hover {
+    opacity: 1;
+}
+
 h3 {
     text-decoration: underline;
 
@@ -67,7 +80,8 @@ div.space {
 
 @media screen and (min-width: 1024px) {
     iframe.sizing {
-        height: 920px;
+        width: 75%;
+        height: 600px;
     }
 
     img.logo {
